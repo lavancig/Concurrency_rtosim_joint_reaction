@@ -15,8 +15,8 @@
 #include <iostream>
 #include <algorithm>
 
-namespace rtb{
-    namespace Concurrency{
+namespace rtb {
+    namespace Concurrency {
 
         template <typename T>
         T Queue<T>::pop() {
@@ -143,5 +143,27 @@ namespace rtb{
 
             return os;
         }
+
+        template <typename T>
+        bool Queue<T>::isEmpty()
+        {
+            return queue_.size() == 0;
+        }
+
+        template <typename T>
+        int Queue<T>::size()
+        {
+            return queue_.size();
+        }
+
+        template <typename T>
+        int Queue<T>::getSubsMissingRead()
+        {
+            std::unique_lock<std::mutex> mlock(mutex_);
+            int nMissingRead = subscribersMissingRead_[std::this_thread::get_id()];
+            mlock.unlock();
+            return nMissingRead;
+        }
+
     }
 }

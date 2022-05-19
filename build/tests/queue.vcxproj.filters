@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\tests\queueMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\tests\threadFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\tests\threadFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B3E16C0D-B708-3688-B4EB-67EBBA620896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{25BD0562-E823-3A7B-88B2-173C83705661}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

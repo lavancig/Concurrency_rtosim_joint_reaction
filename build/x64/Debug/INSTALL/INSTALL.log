@@ -1,0 +1,10 @@
+﻿  -- Install configuration: "Debug"
+  -- Installing: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/lib/Concurrency/ConcurrencyTargets.cmake
+  -- Installing: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/lib/Concurrency/ConcurrencyTargets-debug.cmake
+  -- Up-to-date: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/lib/Concurrency/ConcurrencyConfig.cmake
+  -- Up-to-date: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/lib/Concurrency/ConcurrencyConfigVersion.cmake
+  -- Up-to-date: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/include/rtb/concurrency/Latch.h
+  -- Up-to-date: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/include/rtb/concurrency/Queue.h
+  -- Up-to-date: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/include/rtb/concurrency/Concurrency.h
+  -- Up-to-date: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/include/rtb/concurrency/Queue.cpp
+  -- Up-to-date: C:/Users/MoyaEstebanA/Documents/RTOSIM/Concurrency/install/lib/Concurrency_d.lib

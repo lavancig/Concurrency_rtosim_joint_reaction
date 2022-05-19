@@ -23,7 +23,7 @@
 #include <condition_variable>
 
 namespace rtb {
-    namespace Concurrency{
+    namespace Concurrency {
         //   Queue - an implementation of a single producer multiple consumers
         //           with the following constraints:
         //           - the consumers can subscribe/unsubscribe to the queue at run time
@@ -41,6 +41,9 @@ namespace rtb {
             void push(const T& item);
             template <typename B>
             friend std::ostream& operator<< (std::ostream& os, const Queue<B>& queue);
+            bool isEmpty();
+            int size();
+            int getSubsMissingRead();
         private:
             // decided to go with a list so we can trust the iterator. With other containers you can have
             // reallocation that invalidates iterator

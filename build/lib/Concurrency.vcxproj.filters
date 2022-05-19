@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\lib\Latch.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\lib\include\rtb\concurrency\Latch.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\lib\include\rtb\concurrency\Queue.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\lib\include\rtb\concurrency\Concurrency.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\lib\include\rtb\concurrency\Queue.cpp">
+      <Filter>Source files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MoyaEstebanA\Documents\RTOSIM\Concurrency\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{6266DEA1-5D8D-3F85-80C3-BDC02BC4C555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{DC16A10E-6327-3F7F-A7A7-1AFCF062171C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
